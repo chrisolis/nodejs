@@ -8,6 +8,6 @@ RUN apt-get install -y nodejs
 ADD . /
 
 RUN npm install
-EXPOSE 3300
+EXPOSE 8080
 
 CMD ["node", "index.js"]
